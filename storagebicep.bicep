@@ -10,7 +10,7 @@ param part string
 
 var name='${part}res'
 
-res resource storageaccount 'Microsoft.Storage/storageAccounts@2021-02-01' = {
+resource storageaccount 'Microsoft.Storage/storageAccounts@2021-02-01' = {
   name: 'st889${name}'
   location: Location
   kind: 'StorageV2'
