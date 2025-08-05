@@ -9,3 +9,7 @@ module ManufacturingVnet './ManufacturingVnet.bicep' = {
 module nsg './NSG.bicep' = {
   name: 'nsgModule'
 }
+
+module privateDNS './privateazDNS.bicep' = {
+  name: 'privateDNS'
+}
